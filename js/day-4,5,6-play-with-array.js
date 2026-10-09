@@ -183,24 +183,81 @@
   //     min_price = prices[i];
   //   } else {
   //     let temp = prices[i] - min_price;
-  //     temp > max_profit ? (max_profit = temp) : '';
+  //     if (temp > max_profit) {
+  //       max_profit = temp;
+  //     }
   //   }
   // }
   // console.log(`Max profit: ${max_profit} \n Min price: ${min_price}`);
 }
 
-// Q - Sort the colour.
+// Q - Sort the colors.
 {
+  // let colors = ['white', 'red', 'blue', 'red', 'blue', 'white', 'red', 'blue', 'red', 'blue'];
+  // let j = 0;
+  // let i = 0;
+  // let k = colors.length - 1;
+  // while (i <= k) {
+  //   if (colors[i] === 'white') {
+  //     [colors[j], colors[i]] = [colors[i], colors[j]];
+  //     j++;
+  //     i++;
+  //   } else if (colors[i] === 'blue') {
+  //     [colors[k], colors[i]] = [colors[i], colors[k]];
+  //     k--;
+  //   } else {
+  //     i++;
+  //   }
+  // }
+  // console.log(colors);
 }
 
-// Q - Maximum subarray/kadane's algorithm.
+// Q - Maximum subarray / Kadane's algorithm.
 {
+  // let arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
+  // let maxSum = arr[0];
+  // let currentSum = arr[0];
+  // for (let i = 1; i < arr.length; i++) {
+  //   currentSum = Math.max(arr[i], currentSum + arr[i]);
+  //   maxSum = Math.max(maxSum, currentSum);
+  // }
+  // console.log(maxSum);
 }
 
-// Q - Majority element/moore's voting algorithm.
+// Q - Majority element / Moore's Voting algorithm.
 {
+  // let arr = [2, 2, 1, 1, 1, 2, 2];
+  // let candidate = null;
+  // let count = 0;
+  // for (let i = 0; i < arr.length; i++) {
+  //   if (count === 0) {
+  //     candidate = arr[i];
+  //   }
+  //   if (arr[i] === candidate) {
+  //     count++;
+  //   } else {
+  //     count--;
+  //   }
+  // }
+  // console.log(candidate);
 }
 
 // Q - Trapping rain water.
 {
+  // let height = [4, 2, 0, 3, 2, 5];
+  // let leftMax = new Array(height.length).fill(0);
+  // let rightMax = new Array(height.length).fill(0);
+  // let water = 0;
+  // leftMax[0] = height[0];
+  // for (let i = 1; i < height.length; i++) {
+  //   leftMax[i] = Math.max(leftMax[i - 1], height[i]);
+  // }
+  // rightMax[height.length - 1] = height[height.length - 1];
+  // for (let i = height.length - 2; i >= 0; i--) {
+  //   rightMax[i] = Math.max(rightMax[i + 1], height[i]);
+  // }
+  // for (let i = 0; i < height.length; i++) {
+  //   water += Math.min(leftMax[i], rightMax[i]) - height[i];
+  // }
+  // console.log(leftMax, rightMax, water);
 }
