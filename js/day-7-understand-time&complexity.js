@@ -121,14 +121,11 @@ search space.
 {
   // let arr = [2, 5, 8, 12, 16, 23, 38, 56];
   // let target = 23;
-
   // let left = 0;
   // let right = arr.length - 1;
   // let found = -1;
-
   // while (left <= right) {
   //   let mid = Math.floor((left + right) / 2);
-
   //   if (arr[mid] === target) {
   //     found = mid;
   //     break;
@@ -138,8 +135,7 @@ search space.
   //     right = mid - 1;
   //   }
   // }
-
-  console.log(found); // 5
+  // console.log(found); // 5
 }
 
 /*
