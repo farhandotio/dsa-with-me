@@ -57,3 +57,12 @@
   //   return fibo(n - 1, b, a + b);
   // }
 }
+
+// Fibonacci number with recursion
+{
+  // console.log(fibo(2));
+  // function fibo(n) {
+  //   if (n === 1 || n === 0) return n;
+  //   return fibo(n - 1) + fibo(n - 2);
+  // }
+}
