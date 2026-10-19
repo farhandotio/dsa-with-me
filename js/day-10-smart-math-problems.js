@@ -55,9 +55,21 @@
   //   printFactors(100);
 }
 
-// Check whether a number is prime.
-
-// Print all prime numbers up to \(n\).
+// Print all prime numbers up to (n).
+{
+  // let n = 139;
+  // let arr = new Array(n + 1).fill(true);
+  // arr[0] = false;
+  // arr[1] = false;
+  // for (let i = 2; i <= Math.floor(Math.sqrt(n)); i++) {
+  //   if (arr[i]) {
+  //     for (let j = i * i; j <= n; j += i) {
+  //       arr[j] = false;
+  //     }
+  //   }
+  // }
+  // console.log(arr);
+}
 
 // Find prime factors of a number.
 
